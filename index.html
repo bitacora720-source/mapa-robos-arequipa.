@@ -1,0 +1,33 @@
+
+
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Mapa de Robos en Arequipa</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <style>#map{height:100vh;}</style>
+</head>
+<body>
+  <h3 style="text-align:center;">Mapa de Robos en Arequipa</h3>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+
+  <script>
+    const map = L.map('map').setView([-16.4090, -71.5375], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    fetch('datos.json')
+      .then(r => r.json())
+      .then(points => {
+        L.heatLayer(points, {radius: 25, blur: 15, maxZoom: 17}).addTo(map);
+      });
+  </script>
+</body>
+</html>

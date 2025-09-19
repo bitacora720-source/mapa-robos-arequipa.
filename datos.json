@@ -1,0 +1,20 @@
+[
+  {
+    "lat": -16.3989,
+    "lng": -71.5369,
+    "descripcion": "Robo en la Plaza de Armas",
+    "fecha": "2025-09-01"
+  },
+  {
+    "lat": -16.4125,
+    "lng": -71.5402,
+    "descripcion": "Asalto en Av. Ejército",
+    "fecha": "2025-09-05"
+  },
+  {
+    "lat": -16.4201,
+    "lng": -71.5310,
+    "descripcion": "Hurto en Cayma",
+    "fecha": "2025-09-10"
+  }
+]
