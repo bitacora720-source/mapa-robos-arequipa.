@@ -1,20 +1,62 @@
 [
   {
-    "lat": -16.3989,
-    "lng": -71.5369,
-    "descripcion": "Robo en la Plaza de Armas",
+    "lat": -16.3988084,
+    "lng": -71.5369056,
+    "descripcion": "Plaza de Armas (Centro histórico) — zona reportada en noticias",
     "fecha": "2025-09-01"
   },
   {
-    "lat": -16.4125,
-    "lng": -71.5402,
-    "descripcion": "Asalto en Av. Ejército",
+    "lat": -16.403630,
+    "lng": -71.517638,
+    "descripcion": "Av. Venezuela (zona de casa de cambio reportada en asalto)",
+    "fecha": "2025-08-25"
+  },
+  {
+    "lat": -16.375000,
+    "lng": -71.561400,
+    "descripcion": "Distrito Cerro Colorado (zona donde se reportaron robos y detenciones)",
+    "fecha": "2025-09-10"
+  },
+  {
+    "lat": -16.368917,
+    "lng": -71.544336,
+    "descripcion": "Av. Bolognesi, Cayma (zona con reportes policiales)",
+    "fecha": "2025-09-12"
+  },
+  {
+    "lat": -16.4173617,
+    "lng": -71.5142147,
+    "descripcion": "Mall Aventura / Porongoche (área comercial con incidentes reportados)",
+    "fecha": "2025-09-03"
+  },
+  {
+    "lat": -16.43287158,
+    "lng": -71.50428239,
+    "descripcion": "Paucarpata (zona con reportes de hurtos/asaltos)",
     "fecha": "2025-09-05"
   },
   {
-    "lat": -16.4201,
-    "lng": -71.5310,
-    "descripcion": "Hurto en Cayma",
-    "fecha": "2025-09-10"
+    "lat": -16.419060,
+    "lng": -71.531740,
+    "descripcion": "La Pampilla (José Luis Bustamante y Rivero) — lugar con reportes locales",
+    "fecha": "2025-09-07"
+  },
+  {
+    "lat": -16.410619,
+    "lng": -71.513263,
+    "descripcion": "Distrito Cercado / área cercana a avenidas principales",
+    "fecha": "2025-09-15"
+  },
+  {
+    "lat": -16.3910994,
+    "lng": -71.546749692441,
+    "descripcion": "Mall Plaza Arequipa (Cayma) — punto comercial",
+    "fecha": "2025-09-20"
+  },
+  {
+    "lat": -16.425000,
+    "lng": -71.520000,
+    "descripcion": "Zona comercial intermedia (punto de referencia para reportes locales)",
+    "fecha": "2025-09-18"
   }
 ]
